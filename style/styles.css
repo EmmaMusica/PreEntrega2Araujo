@@ -177,6 +177,13 @@ INDEX.HTML
     max-width: 240px;
 }
 
+@media (max-width: 360px){ 
+    .banner__top-logo img {
+        width: 100%;
+        max-width: 190px;
+    }
+}
+
 @media (max-width:990px) {
     .banner__top {
         padding: 0 1rem;
@@ -704,11 +711,6 @@ DESARROLLO.HTML
     color: white;
 }
 
-@media (max-width:800px) {
-    .mi-musica article {
-
-    }
-}
 
 @media (max-width:480px) {
     .mi-musica article h3 {
@@ -750,6 +752,8 @@ MUSIC.HTML
     margin: 0 auto;
 }
 
+
+
 .productos .video {
     background-color: white;
     box-shadow: 0px 0px 10px 3px  rgb(199, 199, 199);
@@ -770,16 +774,12 @@ MUSIC.HTML
     border-radius: 5px;
 }
 
-
-
 @media (max-width:480px) {
     .text_video button {
         font-size: 12px;
         width: auto;
     }
 }
-
-
 
 
 
@@ -1043,6 +1043,31 @@ CONTACTAME.HTML
     margin: 0 1rem;
 }
 
+
+@media (max-width:760px) {
+    .banner_contactar-content div p {
+        font-size: 14px;
+    }
+    
+    .banner_contactar-content div h1 {
+        font-size: 30px;
+        color: white;
+    }
+    .banner_contactar-content div button {
+        margin: 0 1rem;
+        font-size: 18px;
+        width: 120px;
+    }
+}
+
+@media (max-width:386px) {
+    .banner_contactar-content div button {
+        margin: .7rem;
+    }
+    .banner_contactar-content div p {
+        margin: 1.5rem;
+    }
+}
 .formulario {
     display: flex;
     flex-direction: column;
