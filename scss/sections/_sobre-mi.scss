@@ -1,0 +1,258 @@
+.sobre-mi-banner {
+    background-image: url('../src/img/aboutme.webp');
+}
+
+.banner2 .sobre-mi {
+    text-align: end;
+    img {
+        width: 330px;
+    }
+}
+
+
+.main__sobre-mi {
+    section {
+        padding: 0 4rem;
+        margin-bottom: 5rem;
+    }
+    p {
+        font-size: 24px;
+    }
+} 
+
+
+.title {
+    text-align: start;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title__box-image {
+    position: relative;
+    width: 20%;
+    top: 100px;
+    img {
+        height: 600px;
+    }
+}
+.title__box-title {
+    position: relative;
+    align-self: flex-end;
+    width: 63%;
+    text-align: start;
+    h2 {
+        font-size: 40px;
+    }
+}
+.parrafo {
+    text-align: end;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: end;
+    div {
+        width: 50%;
+    }
+}
+
+ 
+
+.parrafo_imagen {
+    text-align: center;
+    padding: 7rem 1rem;
+    margin: 0 auto;
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo_imagen__box-parrafo {
+flex-basis: 65%;
+}
+
+.parrafo_imagen__box-phone video {
+    width: 100%;
+
+}
+
+.parrafo_imagen__box-parrafo {
+    text-align: end;
+    top: -80px;
+}
+
+.imagen.sobre-mi {
+    padding: 0;
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    article {
+        margin-bottom: 7rem;
+    }
+    .productos__imagen {
+        width: 100%;
+        max-width: 1000px;
+        aspect-ratio: 16 / 9;
+        margin-right: 1rem;
+        img {
+            width: 100%;
+            max-width: 1000px;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 3px  rgb(199, 199, 199);
+        }
+    }
+    .productos__desc {
+        text-align: end;
+        top: -130px;
+        p {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+
+
+
+
+.explorar {
+    margin: 0 auto;
+    background-color: #F85D24;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+.explorar__box {
+    max-width: 1366px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.explorar__box-parrafo {
+    text-align: end;
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    h3 {
+        margin-bottom: 3rem;
+        font-size: 36px;
+        color: white;
+    }
+    p {
+        width: 80%;
+        font-size: 18px;
+        color: white;
+    }
+}
+
+
+.explorar.invertido {
+    background-color: #7b7b7b;
+}
+
+.invertido .explorar__box-parrafo {
+    text-align: start;
+    align-items: start;
+}
+
+
+
+
+@media (max-width: 1130px) {
+    .imagen.sobre-mi .productos__desc p {
+        font-size: 1rem;
+    }
+}
+@media (max-width:1000px) {
+    .title__box-title h2 {
+        text-align: center;
+    }
+}
+@media (max-width:990px) {
+    .main__sobre-mi p {
+        font-size: 20px;
+    }
+}
+@media (max-width:870px) {
+    .title__box-title h2 {
+        text-align: end;
+        font-size: 35px;
+    }
+    .title__box-image {
+        top: 0px;
+        left: -150px;
+        img {
+            height: 480px;
+        }
+    }
+}
+@media (max-width: 700px) {
+    .banner2 .sobre-mi {
+        img {
+            top: 50px;
+            width: 250px;
+        }
+    }
+    .main__sobre-mi p {
+        font-size: 18px;
+    }
+    
+    .parrafo {
+        div {
+            width: 100%;
+        }
+    }
+    .parrafo_imagen {
+        flex-direction: column-reverse;
+    }
+    .explorar__box {
+        flex-direction: column-reverse;
+        .explorar__box-btn {
+            align-self: flex-start;
+        }
+    }
+    .explorar__box.invertido {
+        flex-direction: column;
+        .explorar__box-btn {
+            align-self: flex-end;
+        }
+    }
+}
+@media (max-width:550px) {
+    .main__sobre-mi p {
+        font-size: 14px;
+    }
+    .explorar__box .explorar__box-parrafo {
+        h3 {
+            font-size: 24px;
+            margin-bottom: 1.5rem;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .explorar__box .explorar__box-btn button {
+        width: 100px;
+    }
+}
+@media (max-width:440px) {
+    .main__sobre-mi section {
+        padding: 0 1rem;   
+    }
+    .title__box-title h2 {
+        font-size: 28px;
+    }
+    .title__box-image {
+        left: -110px;
+    }
+}

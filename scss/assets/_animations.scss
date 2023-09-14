@@ -1,0 +1,51 @@
+@keyframes fadeInLeft {
+    from {
+        position: relative;
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        position: relative;
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        position: relative;
+        bottom: -50px;
+        opacity: 0;
+    }
+    to {
+        position: relative;
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        position: relative;
+        right: -50px;
+        opacity: 0;
+    }
+    to {
+        position: relative;
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        position: relative;
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        position: relative;
+        top: 0px;
+        opacity: 1;
+    }
+}

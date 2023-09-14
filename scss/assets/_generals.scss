@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('../src/fonts/source-sans-pro/SourceSansPro-Bold.ttf');
+    src: url('../src/fonts/source-sans-pro/SourceSansPro-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    src: url('../src/fonts/source-sans-pro/SourceSansPro-Regular.ttf');
+ 
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../src/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro Regular' !important;
+    color: #444444;
+}
+
+p {
+    color: #646464;
+}
+
+.btn {
+    padding: .7rem 1.2rem;
+    width: 150px;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+.btn {
+    a {
+        text-decoration: none;
+        transition: all .2s ease;
+    }
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 1px 0 #F85D24;
+        transition: all .2s ease;
+    }
+} 
+
+.btn-big {
+    width: 170px;
+    font-size: 1.3rem;
+}
+
+
+.btn-1 {
+    border: 2px solid rgb(31, 31, 31);
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.btn-1 a {
+    color: white;
+}
+
+.btn-2 {
+    border: 2px solid rgb(31, 31, 31);
+    background-color: white;
+    color: rgb(31, 31, 31);
+}
+
+.btn-2 a {
+    color: rgb(31, 31, 31);
+}
+
+.btn-transparent {
+    background-color: transparent;
+}
+
+.big-border-1 {
+    border: 3px solid white;
+}
+.big-border-2 {
+    border: 3px solid rgb(31, 31, 31);;
+}
+
+
+.navbar-nav{
+    a {
+        display: inline-block;
+        padding: .6rem 2.5rem !important;
+        border-left: 1px solid rgb(214, 214, 214);
+        transition: all .3s ease;
+        &:first-of-type {
+            border-left: none;
+        }
+        &:hover {
+            color: #F85D24 !important;
+            transition: all .3s ease;
+            text-decoration: underline;
+        }
+    }
+} 
+
+@media (max-width: 990px) {
+    .navbar-nav a {
+        padding: .6rem 2.5rem !important;
+        border: none;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    white-space: nowrap;
+}

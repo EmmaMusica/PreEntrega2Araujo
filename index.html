@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmanuel Araujo - Portafolio</title>
+    <meta name="description" content="Portafolio de Emmanuel - Desarrollador, Diseñador y Músico">
+    <meta name="keywords" content="developer, desarrollador, designer, diseñador, musico, musician">
+    <title>Emmanuel - Portafolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top banner__top" id="">
         <a class="navbar-brand banner__top-logo" href="./index.html">
             <img src="./src/img/logo.png" alt="logotipo">
@@ -25,30 +28,33 @@
             </div>
         </div>
     </nav>
+    
+    <!-- BANNER -->
     <div class="banner">
         <div class="background"></div>
         <div class="background2"></div>
         <div class="background3"></div>
         <div class="banner__bottom">
             <div class="banner__bottom-image">
-                <img src="./src/img/guitarphone.png" alt="imagen decorativa de guitarra y telefono">
+                <img src="./src/img/guitarphone.webp" alt="imagen decorativa de guitarra y telefono">
             </div>
             <div class="banner__bottom-title">
-                <h2>Diseñador Web</h2>
-                <h2>Desarrollador Frontend</h2>
-                <h2>Músico</h2>
+                <h1>Diseñador Web<br>Desarrollador Frontend<br>Músico</h1>
             </div>
         </div>
     </div>
     <div class="hr firsthr">
         <hr>
     </div>
+
     <main>
         <section class="bienvenida">
-            <article class="bienvenida__saludo">
-                <h2>¡Hola!</h2>
-                <h2>Soy Emmanuel Araujo</h2>
-                <h2>Bienvenid@ a mi portafolio</h2>
+
+            <!-- SALUDO DE BIENVENIDA -->
+            <article class="bienvenida__saludo ">
+                <h2>¡Hola!
+                <br>Soy Emmanuel Araujo
+                <br>Bienvenid@ a mi portafolio</h2>
             </article>
             <article class="bienvenida__presentacion">
                 <div class="bienvenida__presentacion-avatar">
@@ -58,8 +64,10 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ab cupiditate libero ullam, sunt perspiciatis. Soluta, doloribus facilis sit tenetur, delectus enim nostrum ducimus harum esse molestiae ad.</p>
                 </div>
             </article>
+
+            <!-- CUADROS DE HABILIDADES -->
             <article class="bienvenida__descripcion d-flex flex-wrap justify-content-center align-items-center">
-                <div class="bienvenida__descripcion-diseñador bloque_descripcion">
+                <div class="bienvenida__descripcion-diseñador bloque_descripcion slide-left">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3.05c-.619.632-1 1.496-1 2.45v11A3.5 3.5 0 0 0 5.5 20h7.014c.051-.252.144-.5.28-.736l.73-1.264H5.5A1.5 1.5 0 0 1 4 16.5V7h14v1.254a4.515 4.515 0 0 1 2-.245V5.5c0-.954-.381-1.818-1-2.45V3h-.05a3.489 3.489 0 0 0-2.45-1h-11c-.954 0-1.818.381-2.45 1H3v.05ZM19.212 9a3.496 3.496 0 0 1 .96.044l-1.651 2.858a1.167 1.167 0 1 0 2.02 1.167l1.651-2.859a3.501 3.501 0 0 1-2.975 5.762l-3.031 5.25a1.458 1.458 0 0 1-2.527-1.458l3.026-5.24A3.5 3.5 0 0 1 19.212 9Zm-8.91.243a.75.75 0 0 1-.045 1.06L7.86 12.5l2.397 2.197a.75.75 0 0 1-1.014 1.106l-3-2.75a.75.75 0 0 1 0-1.106l3-2.75a.75.75 0 0 1 1.06.046Zm2.955 6.56l2.02-1.852a4.495 4.495 0 0 1-.008-2.91l-2.012-1.844a.75.75 0 0 0-1.014 1.106L14.64 12.5l-2.397 2.197a.75.75 0 0 0 1.014 1.106Z"/></svg>
                     <h3>Desarrollador</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quas dignissimos explicabo error in quaerat commodi, mollitia ratione <br> voluptatum a, provident veniam? Explicabo delectus velit cumque impedit maiores quasi reiciendis!</p>
@@ -81,6 +89,7 @@
             </div>
         </section>
 
+        <!-- CALL TO ACTION -->
         <section class="titulo-parrafo">
             <article>
                 <h2>Descubre mis trbajos</h2>
@@ -100,6 +109,8 @@
             </article>
         </section>
     </main>
+
+    <!-- FOOTER -->
     <footer>
         <div class="footer-nav navbar navbar-light justify-content-center">
             <nav class="navbar-nav d-flex flex-row flex-wrap justify-content-center">

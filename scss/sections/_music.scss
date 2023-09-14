@@ -1,0 +1,55 @@
+.musico {
+    background-image: url('../src/img/banner-musica.webp');
+    .banner2__logo_de_pagina {
+        animation: fadeInRight 1s;
+        position: relative;
+        img {
+            width: 100%;
+            max-width: 370px;
+        }
+    }
+}
+
+.productos_videos {
+    justify-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+
+.productos .video {
+    background-color: white;
+    box-shadow: 0px 0px 10px 3px  rgb(199, 199, 199);
+    text-align: center;
+    position: relative;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 580px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    iframe {
+        position: relative;
+        height: 92%;
+        width: 96%;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:480px) {
+    .text_video button {
+        font-size: 12px;
+        width: auto;
+    }
+}
+
+
+.mi-desarrollo {
+    text-align: start;
+    color: white;
+    article {
+        align-items: start;
+    }
+}
