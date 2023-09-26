@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Source Sans Pro Bold';
     src: url('../src/fonts/source-sans-pro/SourceSansPro-Bold.ttf');
@@ -14,6 +18,8 @@
     font-family: 'Source Sans 3';
     src: url('../src/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf');
 }
+
+
 
 * {
     margin: 0;
@@ -109,3 +115,34 @@ p {
 .navbar-light .navbar-nav .nav-link {
     white-space: nowrap;
 }
+
+
+
+// .background-index {
+//     z-index: -1;
+//     position: absolute;
+//     width: 0;
+//     height: 0;
+//     border-top: 2000px solid rgb(249, 249, 249);
+//     border-right: 1000px solid transparent;
+//     border-bottom: 1000px solid transparent;
+// }
+// .background-dev {
+//     overflow: hidden;
+//     z-index: -1;
+//     position: absolute;
+//     width: 0;
+//     height: 0;
+//     border-top: 100% solid transparent;
+//     border-right: 2000px solid rgb(249, 249, 249);
+//     border-bottom: 100% solid transparent;
+// }
+// .background-mus {
+//     z-index: -1;
+//     position: absolute;
+//     width: 0;
+//     height: 0;
+//     border-top: 2000px solid rgb(249, 249, 249);
+//     border-right: 1000px solid transparent;
+//     border-bottom: 1000px solid transparent;
+// }

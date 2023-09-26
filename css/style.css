@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 @font-face {
   font-family: 'Source Sans Pro Bold';
   src: url("../src/fonts/source-sans-pro/SourceSansPro-Bold.ttf");
@@ -253,6 +256,7 @@ footer {
     font-size: 24px; } }
 
 .bloque_descripcion {
+  background-color: white;
   border-radius: 1rem;
   box-shadow: 0px 0px 10px 0px #e6e6e6;
   margin: 5rem 1rem;
@@ -437,9 +441,9 @@ hr {
   justify-content: center;
   flex-wrap: wrap;
   gap: 4rem; }
-  .techstack__icons #css, .techstack__icons #html, .techstack__icons #js, .techstack__icons #react, .techstack__icons #redux, .techstack__icons #fig {
+  .techstack__icons #css, .techstack__icons #html, .techstack__icons #js, .techstack__icons #react, .techstack__icons #redux, .techstack__icons #fig, .techstack__icons #wp, .techstack__icons #woo, .techstack__icons #node {
     transition: all .2s ease; }
-    .techstack__icons #css:hover, .techstack__icons #html:hover, .techstack__icons #js:hover, .techstack__icons #react:hover, .techstack__icons #redux:hover, .techstack__icons #fig:hover {
+    .techstack__icons #css:hover, .techstack__icons #html:hover, .techstack__icons #js:hover, .techstack__icons #react:hover, .techstack__icons #redux:hover, .techstack__icons #fig:hover, .techstack__icons #wp:hover, .techstack__icons #woo:hover, .techstack__icons #node:hover {
       cursor: pointer;
       transition: all .2s ease;
       transform: scale(1.3); }
@@ -762,11 +766,15 @@ hr {
   .title__box-image {
     left: -110px; } }
 
-.page_contactame .banner__top {
-  background: black;
-  background: linear-gradient(-90deg, rgba(14, 14, 14, 0.882) 0%, rgba(0, 0, 0, 0) 60%) !important; }
-  .page_contactame .banner__top a {
-    color: white !important; }
+.page_contactame {
+  background-image: url("../../src/img/background-contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .page_contactame .banner__top {
+    background: black;
+    background: linear-gradient(-90deg, rgba(14, 14, 14, 0.882) 0%, rgba(0, 0, 0, 0) 60%) !important; }
+    .page_contactame .banner__top a {
+      color: white !important; }
 
 .banner_contactar {
   position: relative;
@@ -824,7 +832,11 @@ hr {
       text-align: center;
       padding: .5rem 0;
       margin-bottom: 1rem;
-      border-radius: 18px; }
+      border-radius: 18px;
+      transition: all .2s ease; }
+      .formulario form input:hover, .formulario form textarea:hover {
+        transition: all .2s ease;
+        border: 1px solid #F85D24; }
   .formulario .send {
     width: 100%;
     background-color: white;

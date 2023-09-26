@@ -1,4 +1,8 @@
 .page_contactame {
+    background-image: url('../../src/img/background-contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    // background-attachment: fixed;
     .banner__top {
         background: rgb(0,0,0);
         background: linear-gradient(-90deg, rgba(14, 14, 14, 0.882) 0%, rgba(0, 0, 0, 0) 60%) !important;
@@ -74,6 +78,11 @@
             padding: .5rem 0;
             margin-bottom: 1rem;
             border-radius: 18px;
+            transition: all .2s ease;
+            &:hover {
+                transition: all .2s ease;
+                border: 1px solid #F85D24;
+            }
         }
     }
     .send {
